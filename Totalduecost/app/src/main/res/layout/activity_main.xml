@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.zybooks.totalDueCost.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your service below"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/attendEditText"
+        android:layout_width="179dp"
+        android:layout_height="35dp"
+        android:ems="5"
+        android:inputType="number"></Spinner>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select your discount"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/attendEditText1"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:ems="5"
+        android:inputType="number"></Spinner>
+
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:text="Your Total due cost "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp"/>
+
+
+    <Button
+        android:text="Calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcButton"
+        android:layout_marginTop="20dp"
+        android:onClick="calculateClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Thank you for coming!!"
+        android:textSize="22sp" />
+</LinearLayout>
+

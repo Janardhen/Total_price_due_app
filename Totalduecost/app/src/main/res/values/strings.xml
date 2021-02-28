@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Total due cost</string>
+    <string-array name = "services">
+        <item>Makeover</item>
+        <item>Hair Styling</item>
+        <item>Mani Cure</item>
+        <item>Permanent Makeup</item>
+    </string-array>
+
+    <string-array name="discount">
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+</resources>
